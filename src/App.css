@@ -1,0 +1,123 @@
+.App {
+  text-align: center;
+  /* background: #FFE41F; */
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  /* background-color: #a76707; */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  /* justify-content: center; */
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.App-header-title {
+  font-size: calc(70px + 2vmin);
+  color: white;
+  margin-top: 100px;
+}
+
+.App-header-back{
+  background-color: #FCC4BE;
+  height: 1050px;
+  width: 100%;
+}
+
+.App-header-column{
+  background-color: #FFD1CC;
+  height: 100%;
+  width: 30%;
+  right: 0;
+}
+
+.App-header-bajar{
+width: 400px;
+}
+
+.App-map{
+  /* height: 700px;
+  width: 1450px; */
+  /* background-color: rgb(255, 255, 255); */
+  /* align-self: center; */
+  position: absolute;
+  margin-top: 10px;
+  /* width: 80% !imp; */
+}
+.App-infoPais{
+  position: absolute;
+  width: 80%;
+}
+
+.App-info{
+  font-size: calc(40px + 2vmin);
+  margin-top: 125px;
+  margin-bottom: 125px;
+  margin-right: 0px;
+}
+.data{
+  display: flex;
+  flex-direction: row;
+  margin-left: 80px;
+  
+}
+.back{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  margin-top: 100px;
+  margin-left: -90% !important;
+  top: 50px;
+}
+.App-mapa{
+  height: 900px;
+}
+.App-link {
+  color: #61dafb;
+}
+.App-button{
+  margin-top: -120px !important;
+  margin-bottom: 10px !important;
+  margin-left: 70% !important;
+}
+.infoFelicidad{
+  height: 200px;
+  width: 600px;
+  margin-top: -50px;
+  margin-left: 60%;
+}
+.App-Storytelling{
+  background: #f7ad3f;
+  height: 1050px;
+}
+.App-pais{
+  width: 20px !important;
+  margin-bottom: 100px;
+}
+
+.App-data{
+  display: flex;
+  flex-direction: row;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

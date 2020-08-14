@@ -1,0 +1,28 @@
+.MoreInfo{
+    margin-top: -30px;
+}
+
+.MoreInfo-info{
+    border-color: rgb(248, 236, 222);
+    font-size: 20px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.MoreInfo-data{
+    width: 300px !important;
+    margin-left: 100px !important;
+}
+
+.MoreInfo-list{
+    width: 40% !important;
+    height: 400px;
+    background-color: #e95f5f34;
+    overflow-y: scroll;
+}
+
+.MoreInfo-row{
+    display: flex;
+    flex-direction: row;
+}
